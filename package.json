@@ -1,0 +1,15 @@
+{
+  "name": "dogbot",
+  "version": "0.1.0",
+  "description": "A dog discord bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo Mehraban",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "node-dogandcat": "^1.1.0"
+  }
+}
