@@ -35,7 +35,7 @@ client.on('message', (msg) => {
     })
     .catch(err => console.error(err));
     console.log(msg.content);
-    if(msg.content == "Send Me A Dog"){
+    if(msg.content.toLowerCase == "send me a dog"){
         //msg.reply("I Can't Do That Yet :(")
         // random.getRandomDog().then(result => url = result).catch(err => console.error(err));
         // random.getRandomDogFact().then(result => fact = result).catch(err => console.error(err));
